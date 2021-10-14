@@ -4,7 +4,7 @@ from ast import literal_eval
 # https://www.w3schools.com/python/python_arrays.asp
 # https://www.w3schools.com/python/trypython.asp?filename=demo_class4
 
-class Student:
+class STUDENT:
   def __init__(students, studID, firstName, lastName, DOB, gender, avMk):
     students.studID = studID
     students.firstName = firstName
@@ -14,12 +14,13 @@ class Student:
     students.avMk = avMk
 
   def strConcat(index):
-    print("Record", index.studID, "-", index.firstName, "-", index.lastName, "-", index.DOB, "-", index.gender, "-", index.avMk)
+    print("Record", index.studID, "-", index.firstName, "-", 
+          index.lastName, "-", index.DOB, "-", index.gender, "-", index.avMk)
 
-s1 = Student(1, "Johnny", "Depp","9/6/63","m",78.2)
-s2 = Student(2, "Jennifer", "Lawrence","15/8/90","f",88.2)
-s3 = Student(3, "George", "Clooney","6/5/61","m",68.2)
-s4 = Student(4, "Scarlett", "Johansson","22/11/84","f",72.2)
+s1 = STUDENT(1, "Johnny", "Depp","9/6/63","m",78.2)
+s2 = STUDENT(2, "Jennifer", "Lawrence","15/8/90","f",88.2)
+s3 = STUDENT(3, "George", "Clooney","6/5/61","m",68.2)
+s4 = STUDENT(4, "Scarlett", "Johansson","22/11/84","f",72.2)
 
 s1.strConcat()
 s2.strConcat()
