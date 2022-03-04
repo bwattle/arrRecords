@@ -43,98 +43,110 @@ Partial Class StDB107
         '
         'txtFirstName
         '
-        Me.txtFirstName.Location = New System.Drawing.Point(36, 83)
+        Me.txtFirstName.Location = New System.Drawing.Point(96, 198)
+        Me.txtFirstName.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
         Me.txtFirstName.Name = "txtFirstName"
-        Me.txtFirstName.Size = New System.Drawing.Size(100, 20)
+        Me.txtFirstName.Size = New System.Drawing.Size(260, 38)
         Me.txtFirstName.TabIndex = 0
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(36, 35)
+        Me.Label1.Location = New System.Drawing.Point(96, 83)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(107, 13)
+        Me.Label1.Size = New System.Drawing.Size(271, 31)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Enter Student Details"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(36, 64)
+        Me.Label2.Location = New System.Drawing.Point(96, 153)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(57, 13)
+        Me.Label2.Size = New System.Drawing.Size(147, 31)
         Me.Label2.TabIndex = 2
         Me.Label2.Text = "First Name"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(142, 64)
+        Me.Label3.Location = New System.Drawing.Point(379, 153)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(58, 13)
+        Me.Label3.Size = New System.Drawing.Size(145, 31)
         Me.Label3.TabIndex = 4
         Me.Label3.Text = "Last Name"
         '
         'txtLastName
         '
-        Me.txtLastName.Location = New System.Drawing.Point(142, 83)
+        Me.txtLastName.Location = New System.Drawing.Point(379, 198)
+        Me.txtLastName.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
         Me.txtLastName.Name = "txtLastName"
-        Me.txtLastName.Size = New System.Drawing.Size(100, 20)
+        Me.txtLastName.Size = New System.Drawing.Size(260, 38)
         Me.txtLastName.TabIndex = 1
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(248, 64)
+        Me.Label4.Location = New System.Drawing.Point(661, 153)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(66, 13)
+        Me.Label4.Size = New System.Drawing.Size(165, 31)
         Me.Label4.TabIndex = 6
         Me.Label4.Text = "Date of Birth"
         '
         'txtDOB
         '
-        Me.txtDOB.Location = New System.Drawing.Point(248, 83)
+        Me.txtDOB.Location = New System.Drawing.Point(661, 198)
+        Me.txtDOB.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
         Me.txtDOB.Name = "txtDOB"
-        Me.txtDOB.Size = New System.Drawing.Size(100, 20)
+        Me.txtDOB.Size = New System.Drawing.Size(260, 38)
         Me.txtDOB.TabIndex = 2
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(354, 64)
+        Me.Label5.Location = New System.Drawing.Point(944, 153)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(42, 13)
+        Me.Label5.Size = New System.Drawing.Size(104, 31)
         Me.Label5.TabIndex = 8
         Me.Label5.Text = "Gender"
         '
         'txtGender
         '
-        Me.txtGender.Location = New System.Drawing.Point(354, 83)
+        Me.txtGender.Location = New System.Drawing.Point(944, 198)
+        Me.txtGender.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
         Me.txtGender.Name = "txtGender"
-        Me.txtGender.Size = New System.Drawing.Size(100, 20)
+        Me.txtGender.Size = New System.Drawing.Size(260, 38)
         Me.txtGender.TabIndex = 3
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(460, 64)
+        Me.Label6.Location = New System.Drawing.Point(1227, 153)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(65, 13)
+        Me.Label6.Size = New System.Drawing.Size(158, 31)
         Me.Label6.TabIndex = 10
         Me.Label6.Text = "Average Mk"
         '
         'txtAvMk
         '
-        Me.txtAvMk.Location = New System.Drawing.Point(460, 83)
+        Me.txtAvMk.Location = New System.Drawing.Point(1227, 198)
+        Me.txtAvMk.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
         Me.txtAvMk.Name = "txtAvMk"
-        Me.txtAvMk.Size = New System.Drawing.Size(100, 20)
+        Me.txtAvMk.Size = New System.Drawing.Size(260, 38)
         Me.txtAvMk.TabIndex = 4
         '
         'btnAddStud
         '
-        Me.btnAddStud.Location = New System.Drawing.Point(39, 129)
+        Me.btnAddStud.Location = New System.Drawing.Point(104, 308)
+        Me.btnAddStud.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
         Me.btnAddStud.Name = "btnAddStud"
-        Me.btnAddStud.Size = New System.Drawing.Size(104, 23)
+        Me.btnAddStud.Size = New System.Drawing.Size(277, 55)
         Me.btnAddStud.TabIndex = 11
         Me.btnAddStud.Text = "Add Student"
         Me.btnAddStud.UseVisualStyleBackColor = True
@@ -142,54 +154,57 @@ Partial Class StDB107
         'txtStList
         '
         Me.txtStList.FormattingEnabled = True
-        Me.txtStList.Location = New System.Drawing.Point(36, 202)
+        Me.txtStList.ItemHeight = 31
+        Me.txtStList.Location = New System.Drawing.Point(96, 482)
+        Me.txtStList.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
         Me.txtStList.Name = "txtStList"
-        Me.txtStList.Size = New System.Drawing.Size(533, 160)
+        Me.txtStList.Size = New System.Drawing.Size(1415, 376)
         Me.txtStList.TabIndex = 15
         '
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(39, 183)
+        Me.Label8.Location = New System.Drawing.Point(104, 436)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(172, 13)
+        Me.Label8.Size = New System.Drawing.Size(442, 31)
         Me.Label8.TabIndex = 16
         Me.Label8.Text = "List of entered students (for testing)"
         '
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(251, 112)
-        Me.Label7.Margin = New System.Windows.Forms.Padding(1, 0, 1, 0)
+        Me.Label7.Location = New System.Drawing.Point(669, 267)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(38, 13)
+        Me.Label7.Size = New System.Drawing.Size(92, 31)
         Me.Label7.TabIndex = 18
         Me.Label7.Text = "Phone"
         '
         'chkPaid
         '
         Me.chkPaid.AutoSize = True
-        Me.chkPaid.Location = New System.Drawing.Point(372, 129)
-        Me.chkPaid.Margin = New System.Windows.Forms.Padding(1, 1, 1, 1)
+        Me.chkPaid.Location = New System.Drawing.Point(992, 308)
+        Me.chkPaid.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.chkPaid.Name = "chkPaid"
-        Me.chkPaid.Size = New System.Drawing.Size(47, 17)
+        Me.chkPaid.Size = New System.Drawing.Size(87, 35)
         Me.chkPaid.TabIndex = 6
         Me.chkPaid.Text = "Paid"
         Me.chkPaid.UseVisualStyleBackColor = True
         '
         'txtPhone
         '
-        Me.txtPhone.Location = New System.Drawing.Point(248, 129)
+        Me.txtPhone.Location = New System.Drawing.Point(661, 308)
+        Me.txtPhone.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
         Me.txtPhone.Mask = "0000-000-000"
         Me.txtPhone.Name = "txtPhone"
-        Me.txtPhone.Size = New System.Drawing.Size(100, 20)
+        Me.txtPhone.Size = New System.Drawing.Size(260, 38)
         Me.txtPhone.TabIndex = 5
         '
         'StDB107
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(16.0!, 31.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(643, 405)
+        Me.ClientSize = New System.Drawing.Size(1629, 932)
         Me.Controls.Add(Me.txtPhone)
         Me.Controls.Add(Me.chkPaid)
         Me.Controls.Add(Me.Label7)
@@ -207,8 +222,9 @@ Partial Class StDB107
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.txtFirstName)
+        Me.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
         Me.Name = "StDB107"
-        Me.Text = "v1.06 Student Array of Records"
+        Me.Text = "v1.07 Student Array of Records"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

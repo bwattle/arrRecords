@@ -10,7 +10,7 @@ Type
     avMk : Real ;
   End;
 Var
-  students : Array [1..10] Of student; { make space for 10 records in array}
+  students : Array [1..10] Of student; {make space for 10 records in array}
   i : Integer;
 Begin
   students[1].studID := 1;

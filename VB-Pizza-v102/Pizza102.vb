@@ -1,4 +1,4 @@
-﻿Public Class Pizza101
+﻿Public Class Pizza102
     'set up a record or "class" for a student
     Class STUDENT
         Public studID As Int16
@@ -8,7 +8,7 @@
         Public postcode As String
         Public avMk As Byte '+ve # < 255
     End Class
-    ReadOnly students(9) As STUDENT
+    Dim students(9) As STUDENT
     Dim studentCount As Integer = 0
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -45,7 +45,7 @@
         studentCount = 4
         displayList()
     End Sub
-    Private Sub BtnAddStud_Click(sender As Object, e As EventArgs) Handles btnAddStud.Click
+    Private Sub btnAddStud_Click(sender As Object, e As EventArgs) Handles btnAddStud.Click
         students(studentCount).studID = studentCount + 1 'allocate the new student ID to an incremented value
         'place text from text boxes into the array - first students(0), then students(1), students(2) etc
         students(studentCount).firstName = txtFirstName.Text
