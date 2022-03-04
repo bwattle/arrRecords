@@ -6,7 +6,7 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-    <title>v1.7.7 VB array of records</title>
+    <title>Home: Arrays of records</title>
     <meta charset="utf-8" />
     <style type="text/css">
         body {
@@ -22,17 +22,31 @@
         th, td {
             /*text-align: center;*/
             padding: 10px;
-            font-size: 16pt;
             border: 1px solid #000;
+            font-size: 16pt;
         }
     </style>
 </head>
 <body>
-    <h1>&quot;Arrays of Records&quot; in 4 languages...</h1>
-    <h2>Visual Basic (VB), JavaScript (JS), Python (Py) and Pascal (Pas) all have data structures for &quot;arrays of records&quot;. This repository uses &quot;student&quot; records with string, integer and float data types as the example.</h2>
-    <br />
+    &nbsp;<h1>&quot;Arrays of Records&quot; in 4 languages.</h1>
+    <h2>Visual Basic (VB), JavaScript (JS), Python (Py) and Pascal (Pas) all have data structures for &quot;arrays of records&quot;. 
+        This repository uses &quot;student&quot; records with string, integer and float data types as the example.</h2>
+
+    <h3><b><span style="color: red">The repository for this site is at: </span></b><a href="https://github.com/bwattle/arrRecords"
+        title="Link to repository" target="_blank">https://github.com/bwattle/arrRecords</a></h3>
+
+    <h3><b><span style="color: green">The help docs for the project are at: </span></b><a href="js/AssTaskSteps.html"
+        title="Link to help docs" target="_blank">AssTaskSteps.html</a></h3>
+
     The site gives practical examples of the NSW Software Development &amp; Design 
-    <a href="https://educationstandards.nsw.edu.au/wps/wcm/connect/0a5fce0b-d3a6-4ca9-9b9b-a8d96550f066/software-design-development-st6-syll-from2011(1)+Software+Design+and+Development.pdf?MOD=AJPERES&amp;CVID=">syllabus</a>, sections 8.2.2 &amp; 9.2.2.&nbsp;
+    <a href="https://educationstandards.nsw.edu.au/wps/wcm/connect/0a5fce0b-d3a6-4ca9-9b9b-a8d96550f066/software-design-development-st6-syll-from2011(1)+Software+Design+and+Development.pdf?MOD=AJPERES&amp;CVID="
+        title="Link to syllabus" target="_blank">syllabus</a>, sections 8.2.2 &amp; 9.2.2.&nbsp;<br />
+    <br />
+    Students are encouraged to use the free &quot;Community&quot; version of&nbsp; 
+    <a href="https://visualstudio.microsoft.com/downloads/">Visual Studio desktop </a>which integrates 
+    with GitHub and runs all code except Pascal. Documents attached to this site step through the load, 
+    switching between solutions, error messaging, break points and &quot;Locals&quot;.
+    <br />
     <br />
     After an overview of the syntax for each language, students will use Visual Basic and possibly 
     JavaScript to build a Pizza ordering app, consolidating concepts of:&nbsp;
@@ -77,9 +91,16 @@
         <tr>
             <td>Pascal<br />
                 <br />
-                code<br />
+                <a href="https://github.com/bwattle/arrRecords/blob/master/Pas/StDB-v105.pas"
+                    title="Link to Pascal v1.05 code" target="_blank">code</a>
                 <br />
-                exe</td>
+                <br />
+                <a href="https://github.com/bwattle/arrRecords/releases/download/v1.05-Pas/StDB-Pas-v105.exe"
+                    title="Link to Pascal v1.05 exe" target="_blank">exe</a>
+                <br />
+                <br />
+                <a href="https://github.com/bwattle/arrRecords/releases/download/v1.05-Pas/StDB-Pas-v105.zip"
+                    title="Link to Pascal v1.05 zip of exe" target="_blank">zip</a> </td>
             <td>The syntax of Pascal, being an older language, is imn many respects 
                 similar to that used in our syllabus (now over 20 years old).
               <ul>
@@ -91,14 +112,19 @@
                       on separate lines.</li>
               </ul>
 
-                (Editing of this file can be done in <a href="https://sourceforge.net/projects/pascalxe/">Pascal XE</a>. a much simpler IDE than Free Pascal.)</td>
+                (Editing of this file can be done in <a href="https://sourceforge.net/projects/pascalxe/">Pascal XE</a>. a much simpler IDE than Free Pascal.)<br />
+                If security prevents the download of the exe, a zip is provided.</td>
         </tr>
         <tr>
             <td>Python<br />
+                v1.06<br />
                 <br />
-                code<br />
+                <a href="https://github.com/bwattle/arrRecords/blob/master/Py/StDB-106.py"
+                    title="Link to Python v1.06 code in repo" target="_blank">code</a>
                 <br />
-                exe</td>
+                <br />
+                <a href="https://github.com/bwattle/arrRecords/releases/download/v1.06-Py/StDB-106.py"
+                    title="Link to Python v1.06 .py download" target="_blank">.py</a> </td>
             <td>As a modern interprative language, Python uses &quot;data objects&quot;, 
                 allowing arrays to contain a multiple data types and other arrays. 
                 This file uses a custom class to define and associative array, or dictionary, or map.
@@ -111,7 +137,7 @@
                         This file could be refined further, but the basics are here 
                         to compare the structure of the &quot;array of records&quot;.</li>
                 </ul>
-                Python can be run within Visual Studio with a break point and &quot;Locals&quot; 
+                If Python is run within Visual Studio with a break point, &quot;Locals&quot; 
                     will show the distinct integer, float and string fields within each record.
             </td>
         </tr>
@@ -119,7 +145,12 @@
             <td>JavaScript<br />
                 v1.05<br />
                 <br />
-                page</td>
+                <a href="https://github.com/bwattle/arrRecords/blob/master/JS/StDB-v105.html"
+                    title="Link to JavaScript v1.05 code" target="_blank">code</a>
+                <br />
+                <br />
+                <a href="JS/StDB-v105.html" title="Link to JavaScript v1.05 page" target="_blank">page</a><br />
+            </td>
             <td>Javascript is a very flexibe interprative language, with the &quot;students&quot; 
                 array being declared as a &quot;constant&quot;. Although changes can be 
                 made to a constant, it&#39;s structure will remain immutable.
@@ -132,12 +163,30 @@
             </td>
         </tr>
         <tr>
+            <td><a href="https://github.com/bwattle/arrRecords/releases/download/v0.02-VB/StudDB-Chloe-2019.exe"
+                title="Link to VB Student Graduation exe - Choe" target="_blank">VB-Chloe</a> </td>
+            <td>Grad booking exe. Chloe 2019</td>
+        </tr>
+        <tr>
+            <td><a href="https://github.com/bwattle/arrRecords/releases/download/v0.03-VB/StudDB-Jason-2019.exe"
+                title="Link to VB Student Graduation exe - Jason" target="_blank">VB-Jason</a></td>
+            <td>Grad booking exe. Jason 2019</td>
+        </tr>
+        <tr>
+            <td><a href="https://github.com/bwattle/arrRecords/releases/download/v0.01-VB/Pizza-PeterLi-2019.exe"
+                title="Link to Pizza ordering exe - Peter" target="_blank">VB-Peter</a></td>
+            <td>Pizza ordering app. Peter 2019</td>
+        </tr>
+        <tr>
             <td>VB StDB<br />
                 v1.05<br />
                 <br />
-                code<br />
+                <a href="https://github.com/bwattle/arrRecords/blob/master/VB-StDB-v105/StDB105.vb"
+                    title="Link to VB v1.05 zip of exe" target="_blank">code</a>
                 <br />
-                exe</td>
+                <br />
+                <a href="https://github.com/bwattle/arrRecords/releases/download/v1.05-VB/StDBv105.exe"
+                    title="Link to VB v1.05 zip of exe" target="_blank">exe</a> </td>
             <td>This language most closely simulates the pseudocode you may see in exams and will be the focus of later versions.
                 <ul>
                     <li>First, a public class STUDENT is is defined with field data types of int16, string, date, char and single.</li>
@@ -150,8 +199,11 @@
         <tr>
             <td>JavaScript<br />
                 v1.06<br />
+                <a href="https://github.com/bwattle/arrRecords/blob/master/JS/StDB-v106.html"
+                    title="Link to JavaScript v1.06 zip of exe" target="_blank">code</a>
                 <br />
-                page</td>
+                <br />
+                <a href="JS/StDB-v106.html" title="Link to JS v1.06 page" target="_blank">page</a></td>
             <td>Fix the 1 Visual Studio &quot;Warning&quot;.<br />
                 Change the version number in the &quot;Title&quot;<br />
                 Change the version number in the &quot;h3&quot; heading.<br />
@@ -162,9 +214,13 @@
             <td>VB StDB<br />
                 v1.06<br />
                 <br />
-                code<br />
+                <a href="https://github.com/bwattle/arrRecords/blob/master/VB-StDB-v106/StDB106.vb"
+                    title="Link to VB v1.05 zip of exe" target="_blank">code
+
+                </a>
                 <br />
-                exe</td>
+                <br />
+                <a href="JS/UnderConstruction.html" title="Link to VB v1.06 exe" target="_blank">exe</a></td>
             <td>Fix the 3 Visual Studio &quot;Messages&quot;:
                 <ul>
                     <li>Make field readonly</li>
@@ -180,8 +236,14 @@
                 Add additional fields to the 4 test records and to the &quot;displayStudents&quot; function.</td>
         </tr>
         <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td>JavaScript<br />
+                v1.07<br />
+                <a href="JS/UnderConstruction.html"
+                    title="Link to JavaScript v1.07" target="_blank">code</a>
+                <br />
+                <br />
+                <a href="JS/UnderConstruction.html" title="Link to JS v1.07 page" target="_blank">page</a></td>
+            <td>Not started yet</td>
         </tr>
         <tr>
             <td>&nbsp;</td>
@@ -189,7 +251,22 @@
         </tr>
         <tr>
             <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td>3 Sample files:</td>
+        </tr>
+        <tr>
+            <td><a href="https://github.com/bwattle/arrRecords/releases/download/v0.02-VB/StudDB-Chloe-2019.exe"
+                title="Link to VB Student Graduation exe - Choe" target="_blank">VB-Chloe</a> </td>
+            <td>Grad booking exe. Chloe 2019</td>
+        </tr>
+        <tr>
+            <td><a href="https://github.com/bwattle/arrRecords/releases/download/v0.03-VB/StudDB-Jason-2019.exe"
+                title="Link to VB Student Graduation exe - Jason" target="_blank">VB-Jason</a></td>
+            <td>Grad booking exe. Jason 2019</td>
+        </tr>
+        <tr>
+            <td><a href="https://github.com/bwattle/arrRecords/releases/download/v0.01-VB/Pizza-PeterLi-2019.exe"
+                title="Link to Pizza ordering exe - Peter" target="_blank">VB-Peter</a></td>
+            <td>Pizza ordering app. Peter 2019</td>
         </tr>
         <tr>
             <td>&nbsp;</td>
@@ -197,19 +274,12 @@
         </tr>
         <tr>
             <td>&nbsp;</td>
-            <td>&nbsp;</td>
-        </tr>
-        <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-        </tr>
-        <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-        </tr>
-        <tr>
-            <td>&nbsp;</td>
-            <td>The versions below here are from the class of 2020 which only did VB.</td>
+            <td>The versions below here are from the class of 2020 which only did VB. 
+                <a href="https://bwattle.github.io/11-StudDB_VB/"
+                    title="Link to 2020 VB site" target="_blank">https://bwattle.github.io/11-StudDB_VB/</a>
+                <br />
+                with repo at: <a href="https://github.com/bwattle/11-StudDB_VB"
+                    title="Link to 2020 VB repository" target="_blank">https://github.com/bwattle/11-StudDB_VB</a> </td>
         </tr>
         <tr>
             <td>

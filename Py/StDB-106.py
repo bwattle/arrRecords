@@ -3,6 +3,7 @@ from ast import literal_eval
 # https://realpython.com/python-data-structures/#dict-simple-data-objects
 # https://www.w3schools.com/python/python_arrays.asp
 # https://www.w3schools.com/python/trypython.asp?filename=demo_class4
+# March 2022 - Aiden Gardner helped with the referencing of elements in arrStud 
 
 class STUDENT:
   def __init__(students, studID, firstName, lastName, DOB, gender, avMk):
@@ -17,12 +18,22 @@ class STUDENT:
     print("Record", index.studID, "-", index.firstName, "-", 
           index.lastName, "-", index.DOB, "-", index.gender, "-", index.avMk)
 
-s1 = STUDENT(1, "Johnny", "Depp","9/6/63","m",78.2)
-s2 = STUDENT(2, "Jennifer", "Lawrence","15/8/90","f",88.2)
-s3 = STUDENT(3, "George", "Clooney","6/5/61","m",68.2)
-s4 = STUDENT(4, "Scarlett", "Johansson","22/11/84","f",72.2)
+arrStud =[
+    STUDENT(1, "Johnny", "Depp","9/6/63","m",78.2),
+    STUDENT(2, "Jennifer", "Lawrence","15/8/90","f",88.2),
+    STUDENT(3, "George", "Clooney","6/5/61","m",68.2),
+    STUDENT(4, "Scarlett", "Johansson","22/11/84","f",72.2)
+]
 
-s1.strConcat()
-s2.strConcat()
-s3.strConcat()
-s4.strConcat()
+# check of referencing elements of the class (array of records)
+print(arrStud[1].firstName)
+print(arrStud[1].lastName)
+
+for i in range(0, len(arrStud)):    
+    print(arrStud[i].studID, "-", arrStud[i].firstName, "-", arrStud[i].lastName, 
+          "-", arrStud[i].DOB, "-", arrStud[i].gender, "-", arrStud[i].avMk)
+
+print()
+print()
+print("Printing the array of records just gives object references")
+print(arrStud)
